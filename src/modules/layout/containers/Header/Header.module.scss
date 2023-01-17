@@ -1,0 +1,14 @@
+.container {
+  @include flex-justify-align(space-between, center);
+  @include block-padding(100px);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  max-width: 1528px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media-mobile {
+    @include block-padding(20px);
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $gray;
+}
+
+.inner {
+  @include flex-justify-align(space-between, center);
+  @include block-padding(100px);
+  max-width: 1528px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media-mobile {
+    @include block-padding(20px);
+    flex-wrap: wrap;
+  }
+}
+
+.info {
+  max-width: 247px;
+
+  @include media-mobile {
+    order: 1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+    min-width: 100%;
+  }
+}
+
+.desc {
+  font-size: 12px;
+}

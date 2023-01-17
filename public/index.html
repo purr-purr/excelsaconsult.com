@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link href="%PUBLIC_URL%/favicon.svg" rel="icon"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="#0c0c0c" name="theme-color"/>
+    <meta content="EXCELSA CONSULTING" name="description"/>
+    <link href="%PUBLIC_URL%/favicon.svg" rel="apple-touch-icon"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+    />
+    <title>EXCELSA CONSULTING</title>
+
+    <meta
+            name="description"
+            content="Helping insurance companies navigate change to capture growth opportunities and create value in an increasingly digital world"
+    />
+    <meta
+            name="keywords"
+            content="Insurance, Insurance companies, Auto insurance, Life insurance, Insurance quotes, Home insurance, Liability insurance, Insurance broker, Insurance agents, Insurance agency, Insurance policy"
+    />
+    <meta name="author" content="Anton Shaposhnikov => shaposhnikov.in"/>
+    <meta name="image" content="%PUBLIC_URL%/favicon.svg"/>
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="EXCELSA CONSULTING"/>
+    <meta
+            property="og:description"
+            content="Helping insurance companies navigate change to capture growth opportunities and create value in an increasingly digital world"
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/favicon.svg"/>
+    <meta property="og:url" content="https://excelsaconsult.com/"/>
+
+    <link rel="canonical" href="https://excelsaconsult.com/"/>
+
+    <meta name="apple-mobile-web-app-title"
+          content="EXCELSA CONSULTING"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root">
+    <style>
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            z-index: 9999;
+        }
+
+        .loading-text {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+        }
+
+        .loading-text span {
+            font-family: 'Montserrat', sans-serif;
+            display: inline-block;
+            margin-right: 5px;
+            margin-left: 5px;
+            color: #222;
+            filter: blur(0px);
+            animation: blur-text 1.5s infinite linear alternate;
+        }
+
+        .loading-text span:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .loading-text span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .loading-text span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        .loading-text span:nth-child(4) {
+            animation-delay: 0.6s;
+        }
+
+        .loading-text span:nth-child(5) {
+            animation-delay: 0.8s;
+        }
+
+        .loading-text span:nth-child(6) {
+            animation-delay: 1s;
+        }
+
+        .loading-text span:nth-child(7) {
+            animation-delay: 1.2s;
+        }
+
+        @keyframes blur-text {
+            from {
+                filter: blur(0px);
+            }
+            to {
+                filter: blur(4px);
+            }
+        }
+    </style>
+
+    <main class="loading">
+        <section class="loading-text">
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </section>
+    </main>
+</div>
+</body>
+</html>

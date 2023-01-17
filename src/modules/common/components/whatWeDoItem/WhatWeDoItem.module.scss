@@ -1,0 +1,33 @@
+.container {
+  max-width: 367px;
+  width: 100%;
+  position: relative;
+  counter-increment: count;
+
+  &:before {
+    content: "0" counter(count);
+    position: absolute;
+    top: -56px;
+    left: 0;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.1;
+    z-index: -1;
+    color: $blue;
+
+    @include media-mobile {
+      top: -33px;
+      font-size: 54px;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+
+    @include media-mobile {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+}

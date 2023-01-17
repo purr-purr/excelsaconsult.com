@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section {
+  flex: 1 0 auto;
+  max-width: 1528px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  @include block-padding(100px);
+
+  @include media-mobile {
+    @include block-padding(20px);
+  }
+}
