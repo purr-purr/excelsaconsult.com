@@ -39,7 +39,6 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "generateIcons": "fantasticon --config .fantasticonrc.js",
     "eject": "react-scripts eject",
     "dev:prettier": "prettier --write .",
     "dev:prettier-check": "prettier --check .",
