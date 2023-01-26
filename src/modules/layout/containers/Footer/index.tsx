@@ -7,6 +7,7 @@ import {
   COMPANY_TITLE,
   COMPANY_TITLE_DESC,
   CONTACT_EMAIL_SECOND,
+  CONTACT_NUMBER,
 } from '@helpers/const';
 
 import s from './Footer.module.scss';
@@ -22,6 +23,9 @@ const Footer = () => {
           <p className={s.desc}>{COMPANY_POST_BOX}</p>
           <a className={s.desc} href={`mailto:${CONTACT_EMAIL_SECOND}`}>
             {CONTACT_EMAIL_SECOND}
+          </a>
+          <a className={s.desc} href={`tel:${CONTACT_NUMBER}`}>
+            {CONTACT_NUMBER}
           </a>
         </div>
         <Socials />
