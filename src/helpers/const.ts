@@ -8,3 +8,11 @@ export const COMPANY_POST_BOX = 'UAE PO BOX NO:   10055';
 export const CONTACT_EMAIL = 'excelsacomp@gmail.com';
 export const CONTACT_EMAIL_SECOND = 'exclsaconsalting@gmail.com';
 export const CONTACT_NUMBER = '+971565802783';
+
+export const MAIN_ACTIVITY_LIST = [
+  { title: 'Personal Insurance', icon: 'personal' },
+  { title: 'Auto Insurance', icon: 'car' },
+  { title: 'Health and Life Insurance', icon: 'health' },
+  { title: 'Business and Corporate  Insurance', icon: 'business' },
+  { title: 'Other Financial and non financial services', icon: 'financial' },
+];
