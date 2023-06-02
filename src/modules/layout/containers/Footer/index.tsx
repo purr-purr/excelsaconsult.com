@@ -1,16 +1,14 @@
-import Logo from '@modules/common/components/logo';
-import Socials from '@modules/common/components/Socials';
-
+import s from './Footer.module.scss';
 import {
   ADDRESS,
   COMPANY_POST_BOX,
   COMPANY_TITLE,
   COMPANY_TITLE_DESC,
-  CONTACT_EMAIL_SECOND,
+  CONTACT_EMAIL,
   CONTACT_NUMBER,
 } from '@helpers/const';
-
-import s from './Footer.module.scss';
+import Socials from '@modules/common/components/Socials';
+import Logo from '@modules/common/components/logo';
 
 const Footer = () => {
   return (
@@ -21,8 +19,8 @@ const Footer = () => {
           <p className={s.desc}>{COMPANY_TITLE + COMPANY_TITLE_DESC}</p>
           <p className={s.desc}>{ADDRESS}</p>
           <p className={s.desc}>{COMPANY_POST_BOX}</p>
-          <a className={s.desc} href={`mailto:${CONTACT_EMAIL_SECOND}`}>
-            {CONTACT_EMAIL_SECOND}
+          <a className={s.desc} href={`mailto:${CONTACT_EMAIL}`}>
+            {CONTACT_EMAIL}
           </a>
           <a className={s.desc} href={`tel:${CONTACT_NUMBER}`}>
             {CONTACT_NUMBER}

@@ -39,7 +39,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "deploy": "craco build && && node deploy",
+    "deploy": "craco build && node deploy",
     "test": "craco test",
     "eject": "react-scripts eject",
     "dev:prettier": "prettier --write .",
